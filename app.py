@@ -42,7 +42,7 @@ st.markdown("""
     /* Chức danh */
     .job {
         font-size: 22px;
-        color: #c6283d;
+        color: #222222;
         margin-bottom: 15px;
     }
 
@@ -51,7 +51,7 @@ st.markdown("""
         font-size: 16px;
         line-height: 1.6;
         text-align: justify;
-        color: #c6283d;
+        color: #222222;
     }
 
     /* Tiêu đề section */
