@@ -5,7 +5,7 @@ import streamlit as st
 # =========================================================
 
 st.set_page_config(
-    page_title="CV - Trần Văn LợiLợi",
+    page_title="CV - Trần Văn Lợi",
     page_icon="👩‍💼",
     layout="wide"
 )
@@ -177,7 +177,7 @@ with col1:
 with col2:
 
     st.markdown(
-        '<div class="name">TRẦN VĂN LỢILỢI</div>',
+        '<div class="name">TRẦN VĂN LỢI</div>',
         unsafe_allow_html=True
     )
 
