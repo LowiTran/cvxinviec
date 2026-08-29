@@ -231,24 +231,60 @@ with col1:
 
     st.markdown(
         """
-        <div class="info-row">
-            <span class="icon">●</span>
-            04/04/2005
-        </div>
+        <div style="
+            color: #222222 !important;
+            font-size: 16px;
+            line-height: 1.6;
+        ">
 
-        <div class="info-row">
-            <span class="icon">✉</span>
-            trandieulinh34@gmail.com
-        </div>
+            <div style="
+                color: #222222 !important;
+                margin-bottom: 10px;
+            ">
+                <span style="
+                    color: #c6283d !important;
+                    font-weight: bold;
+                    margin-right: 10px;
+                ">●</span>
+                04/04/2005
+            </div>
 
-        <div class="info-row">
-            <span class="icon">☎</span>
-            0889905402
-        </div>
+            <div style="
+                color: #222222 !important;
+                margin-bottom: 10px;
+            ">
+                <span style="
+                    color: #c6283d !important;
+                    font-weight: bold;
+                    margin-right: 10px;
+                ">✉</span>
+                trandieulinh34@gmail.com
+            </div>
 
-        <div class="info-row">
-            <span class="icon">📍</span>
-            98 Nguyễn Văn Săng
+            <div style="
+                color: #222222 !important;
+                margin-bottom: 10px;
+            ">
+                <span style="
+                    color: #c6283d !important;
+                    font-weight: bold;
+                    margin-right: 10px;
+                ">☎</span>
+                0889905402
+            </div>
+
+            <div style="
+                color: #222222 !important;
+                margin-bottom: 10px;
+            ">
+                <span style="
+                    color: #c6283d !important;
+                    font-weight: bold;
+                    margin-right: 10px;
+                ">⌖</span>
+                98 Nguyễn Văn Săng
+            </div>
+
         </div>
         """,
         unsafe_allow_html=True
@@ -268,21 +304,37 @@ with col2:
 
     st.markdown(
         """
-        <div class="content">
+        <div style="
+            color: #222222 !important;
+            font-size: 16px;
+            line-height: 1.7;
+        ">
 
-        <div class="bold">
-        Đại học Nguyễn Tất Thành
-        </div>
+            <div style="
+                color: #111111 !important;
+                font-weight: bold;
+                margin-bottom: 5px;
+            ">
+                Đại học Nguyễn Tất Thành
+            </div>
 
-        Tài chính - Ngân hàng
+            <div style="color: #222222 !important;">
+                Tài chính - Ngân hàng
+            </div>
 
-        <br>
+            <div style="
+                color: #222222 !important;
+                margin-top: 5px;
+            ">
+                2023 - 2027
+            </div>
 
-        2023 - 2027
-
-        <br>
-
-        Chuyên ngành Tài chính ngân hàng
+            <div style="
+                color: #222222 !important;
+                margin-top: 5px;
+            ">
+                Chuyên ngành Tài chính ngân hàng
+            </div>
 
         </div>
         """,
@@ -303,13 +355,25 @@ with col3:
 
     st.markdown(
         """
-        <div class="content">
+        <div style="
+            color: #222222 !important;
+            font-size: 16px;
+            line-height: 1.7;
+        ">
 
-        Tin học:
+            <div style="
+                color: #111111 !important;
+                font-weight: bold;
+            ">
+                Tin học:
+            </div>
 
-        <br>
-
-        Word, Excel, PDF
+            <div style="
+                color: #222222 !important;
+                margin-top: 5px;
+            ">
+                Word, Excel, PDF
+            </div>
 
         </div>
         """,
@@ -318,31 +382,146 @@ with col3:
 
 
 # =========================================================
-# =========================================================
 # KINH NGHIỆM LÀM VIỆC
 # =========================================================
 
-st.markdown("## KINH NGHIỆM LÀM VIỆC")
-st.divider()
+st.markdown(
+    """
+    <div style="
+        color: #111111 !important;
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 8px;
+    ">
+        KINH NGHIỆM LÀM VIỆC
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
-col_time, col_content = st.columns([1, 3])
+st.markdown(
+    """
+    <hr style="
+        border: none;
+        border-top: 1px solid #555555;
+        margin: 0 0 25px 0;
+    ">
+    """,
+    unsafe_allow_html=True
+)
+
+
+col_time, col_content = st.columns([1, 3], gap="large")
+
+
+# ---------------------------------------------------------
+# THỜI GIAN
+# ---------------------------------------------------------
 
 with col_time:
-    st.markdown("🔴 **03/2025 - 04/2026**")
+
+    st.markdown(
+        """
+        <div style="
+            color: #222222 !important;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 1.5;
+        ">
+            <span style="
+                color: #c6283d !important;
+                font-size: 18px;
+            ">●</span>
+            03/2025 - 04/2026
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+
+# ---------------------------------------------------------
+# NỘI DUNG KINH NGHIỆM
+# ---------------------------------------------------------
 
 with col_content:
-    st.markdown("### Doanh nghiệp tư nhân Thắt lưng giá tốt")
-    
-    st.markdown("**Nhân viên tư vấn và chăm sóc khách hàng**")
-    
-    st.markdown("""
-    - Liên hệ tệp **+1000 khách hàng tiềm năng** và tư vấn khách hàng sử dụng các sản phẩm.
-    
-    - Tiếp nhận và xử lý các yêu cầu của khách hàng về sản phẩm.
-    
-    - Chăm sóc khách hàng cũ, hỗ trợ giải đáp mọi thắc mắc của khách hàng đối với sản phẩm đang sử dụng.
-    """)
-    
+
+    st.markdown(
+        """
+        <div style="
+            color: #111111 !important;
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        ">
+            Doanh nghiệp tư nhân Thắt lưng giá tốt
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        """
+        <div style="
+            color: #222222 !important;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        ">
+            Nhân viên tư vấn và chăm sóc khách hàng
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        """
+        <div style="
+            color: #222222 !important;
+            font-size: 15px;
+            line-height: 1.7;
+        ">
+
+            <ul style="
+                color: #222222 !important;
+                padding-left: 20px;
+                margin-top: 0;
+            ">
+
+                <li style="
+                    color: #222222 !important;
+                    margin-bottom: 8px;
+                ">
+                    Liên hệ tệp
+                    <strong style="color: #111111 !important;">
+                        +1000 khách hàng tiềm năng
+                    </strong>
+                    và tư vấn khách hàng sử dụng các sản phẩm.
+                </li>
+
+                <li style="
+                    color: #222222 !important;
+                    margin-bottom: 8px;
+                ">
+                    Tiếp nhận và xử lý các yêu cầu của khách hàng về sản phẩm.
+                </li>
+
+                <li style="
+                    color: #222222 !important;
+                    margin-bottom: 8px;
+                ">
+                    Chăm sóc khách hàng cũ, hỗ trợ giải đáp mọi thắc mắc
+                    của khách hàng đối với sản phẩm đang sử dụng.
+                </li>
+
+            </ul>
+
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+
 # =========================================================
 # PHẦN 4: KỸ NĂNG + NGƯỜI THAM KHẢO
 # =========================================================
@@ -363,41 +542,77 @@ with col1:
 
     st.markdown(
         """
-        <div class="skill-title">
-            Kỹ năng giao tiếp
-        </div>
+        <div style="
+            color: #222222 !important;
+            font-size: 15px;
+            line-height: 1.55;
+        ">
 
-        <div class="skill-content">
-            Giao tiếp và giải đáp thắc mắc của khách hàng
-        </div>
+            <div style="
+                color: #111111 !important;
+                font-size: 16px;
+                font-weight: bold;
+                margin-top: 12px;
+            ">
+                Kỹ năng giao tiếp
+            </div>
 
-
-        <div class="skill-title">
-            Kỹ năng làm việc nhóm
-        </div>
-
-        <div class="skill-content">
-            Control được công việc trong nhóm, phân chia cho các
-            thành viên trong nhóm hoặc có trách nhiệm với nhiệm vụ
-            được giao
-        </div>
-
-
-        <div class="skill-title">
-            Kỹ năng quản lý thời gian
-        </div>
-
-        <div class="skill-content">
-            Phân bổ thời gian hợp lý cho từng công việc
-        </div>
+            <div style="
+                color: #222222 !important;
+            ">
+                Giao tiếp và giải đáp thắc mắc của khách hàng
+            </div>
 
 
-        <div class="skill-title">
-            Kỹ năng tin học
-        </div>
+            <div style="
+                color: #111111 !important;
+                font-size: 16px;
+                font-weight: bold;
+                margin-top: 12px;
+            ">
+                Kỹ năng làm việc nhóm
+            </div>
 
-        <div class="skill-content">
-            Soạn thảo văn bảng, làm sile
+            <div style="
+                color: #222222 !important;
+            ">
+                Control được công việc trong nhóm, phân chia cho các
+                thành viên trong nhóm hoặc có trách nhiệm với nhiệm vụ
+                được giao
+            </div>
+
+
+            <div style="
+                color: #111111 !important;
+                font-size: 16px;
+                font-weight: bold;
+                margin-top: 12px;
+            ">
+                Kỹ năng quản lý thời gian
+            </div>
+
+            <div style="
+                color: #222222 !important;
+            ">
+                Phân bổ thời gian hợp lý cho từng công việc
+            </div>
+
+
+            <div style="
+                color: #111111 !important;
+                font-size: 16px;
+                font-weight: bold;
+                margin-top: 12px;
+            ">
+                Kỹ năng tin học
+            </div>
+
+            <div style="
+                color: #222222 !important;
+            ">
+                Soạn thảo văn bảng, làm sile
+            </div>
+
         </div>
         """,
         unsafe_allow_html=True
@@ -417,16 +632,29 @@ with col2:
 
     st.markdown(
         """
-        <div class="content">
+        <div style="
+            color: #222222 !important;
+            font-size: 16px;
+            line-height: 1.6;
+        ">
 
-        <div class="bold">
-            Cao Thị Mỹ Huê
+            <div style="
+                color: #111111 !important;
+                font-weight: bold;
+                margin-bottom: 5px;
+            ">
+                Cao Thị Mỹ Huê
+            </div>
+
+            <div style="color: #222222 !important;">
+                Giám đốc phòng kinh doanh (SM) - Ngân hàng TMCP
+                Quốc Tế Việt Nam (VIB)
+            </div>
+
         </div>
-
-        Giám đốc phòng kinh doanh (SM) - Ngân hàng TMCP
-        Quốc Tế Việt Nam (VIB)
-
-        </div>
+        """,
+        unsafe_allow_html=True
+    )
         """,
         unsafe_allow_html=True
     )
