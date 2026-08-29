@@ -5,7 +5,7 @@ import streamlit as st
 # =========================================================
 
 st.set_page_config(
-    page_title="CV - Trần Diệu Linh",
+    page_title="CV - Trần Văn Lợi",
     page_icon="👩‍💼",
     layout="wide"
 )
@@ -170,7 +170,7 @@ col1, col2 = st.columns([1, 2.2], gap="large")
 with col1:
 
     st.image(
-        "    photo.jpg",
+        "photo.jpg",
         width=300
     )
 
@@ -318,59 +318,31 @@ with col3:
 
 
 # =========================================================
-# PHẦN 3: KINH NGHIỆM LÀM VIỆC
+# =========================================================
+# KINH NGHIỆM LÀM VIỆC
 # =========================================================
 
-st.markdown(
-    '<div class="section-title">KINH NGHIỆM LÀM VIỆC</div>',
-    unsafe_allow_html=True
-)
+st.markdown("## KINH NGHIỆM LÀM VIỆC")
+st.divider()
 
-st.markdown(
-    """
-    <div class="timeline">
+col_time, col_content = st.columns([1, 3])
 
-        <div class="dot"></div>
+with col_time:
+    st.markdown("🔴 **03/2025 - 04/2026**")
 
-        <div class="experience-date">
-            03/2025 - 04/2026
-        </div>
-
-        <br>
-
-        <div class="company">
-            Doanh nghiệp tư nhân Thắt lưng giá tốt
-        </div>
-
-        <br>
-
-        <div class="content">
-
-            <b>Nhân viên tư vấn và chăm sóc khách hàng</b>
-
-            <div class="bullet">
-                • Liên hệ tệp +1000 khách hàng tiềm năng và tư vấn
-                khách hàng sử dụng các sản phẩm.
-            </div>
-
-            <div class="bullet">
-                • Tiếp nhận và xử lý các yêu cầu của khách hàng
-                về sản phẩm.
-            </div>
-
-            <div class="bullet">
-                • Chăm sóc khách hàng cũ, hỗ trợ giải đáp mọi thắc mắc
-                của khách hàng đối với sản phẩm đang sử dụng.
-            </div>
-
-        </div>
-
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
-
+with col_content:
+    st.markdown("### Doanh nghiệp tư nhân Thắt lưng giá tốt")
+    
+    st.markdown("**Nhân viên tư vấn và chăm sóc khách hàng**")
+    
+    st.markdown("""
+    - Liên hệ tệp **+1000 khách hàng tiềm năng** và tư vấn khách hàng sử dụng các sản phẩm.
+    
+    - Tiếp nhận và xử lý các yêu cầu của khách hàng về sản phẩm.
+    
+    - Chăm sóc khách hàng cũ, hỗ trợ giải đáp mọi thắc mắc của khách hàng đối với sản phẩm đang sử dụng.
+    """)
+    
 # =========================================================
 # PHẦN 4: KỸ NĂNG + NGƯỜI THAM KHẢO
 # =========================================================
