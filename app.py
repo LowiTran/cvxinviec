@@ -233,22 +233,22 @@ with col1:
         """
         <div class="info-row">
             <span class="icon">●</span>
-            04/04/2005
+            26/05/2005
         </div>
 
         <div class="info-row">
             <span class="icon">✉</span>
-            trandieulinh34@gmail.com
+            loiwitran2005@gmail.com
         </div>
 
         <div class="info-row">
             <span class="icon">☎</span>
-            0889905402
+            0372763338
         </div>
 
         <div class="info-row">
             <span class="icon">📍</span>
-            98 Nguyễn Văn Săng
+            496/63/2D Dương Quảng Hàm
         </div>
         """,
         unsafe_allow_html=True
