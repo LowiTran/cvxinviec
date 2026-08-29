@@ -17,13 +17,9 @@ st.set_page_config(
 st.markdown("""
 <style>
 
-    /* =====================================================
-       TOÀN BỘ TRANG
-    ===================================================== */
-
+    /* Toàn bộ trang */
     .stApp {
         background-color: white;
-        color: #222222;
     }
 
     .main {
@@ -35,190 +31,103 @@ st.markdown("""
         font-family: Arial, sans-serif;
     }
 
-    /* =====================================================
-       ÉP TOÀN BỘ CHỮ STREAMLIT TỪ PHẦN DƯỚI THÀNH MÀU ĐEN
-    ===================================================== */
-
-    [data-testid="stMarkdownContainer"] {
-        color: #222222 !important;
-    }
-
-    [data-testid="stMarkdownContainer"] p {
-        color: #222222 !important;
-    }
-
-    [data-testid="stMarkdownContainer"] span {
-        color: #222222;
-    }
-
-    [data-testid="stMarkdownContainer"] li {
-        color: #222222 !important;
-    }
-
-    [data-testid="stMarkdownContainer"] strong {
-        color: #111111 !important;
-    }
-
-    [data-testid="stMarkdownContainer"] h1,
-    [data-testid="stMarkdownContainer"] h2,
-    [data-testid="stMarkdownContainer"] h3,
-    [data-testid="stMarkdownContainer"] h4,
-    [data-testid="stMarkdownContainer"] h5,
-    [data-testid="stMarkdownContainer"] h6 {
-        color: #111111 !important;
-    }
-
-    /* Các đoạn markdown native của Streamlit */
-    .stMarkdown,
-    .stText,
-    .stCaption {
-        color: #222222 !important;
-    }
-
-    /* =====================================================
-       TÊN
-    ===================================================== */
-
+    /* Tên */
     .name {
         font-size: 38px;
         font-weight: bold;
-        color: #c6283d !important;
+        color: #c6283d;
         margin-bottom: 5px;
     }
 
-    /* =====================================================
-       CHỨC DANH
-    ===================================================== */
-
+    /* Chức danh */
     .job {
         font-size: 22px;
-        color: #222222 !important;
+        color: #222222;
         margin-bottom: 15px;
     }
 
-    /* =====================================================
-       GIỚI THIỆU
-    ===================================================== */
-
+    /* Giới thiệu */
     .intro {
         font-size: 16px;
         line-height: 1.6;
         text-align: justify;
-        color: #222222 !important;
+        color: #222222;
     }
 
-    /* =====================================================
-       TIÊU ĐỀ SECTION
-    ===================================================== */
-
+    /* Tiêu đề section */
     .section-title {
         font-size: 21px;
         font-weight: bold;
-        color: #111111 !important;
-
+        color: #111111;
         border-top: 3px solid #c6283d;
         border-bottom: 3px solid #c6283d;
-
         padding: 7px 5px;
-
         margin-top: 20px;
         margin-bottom: 15px;
     }
 
-    /* =====================================================
-       NỘI DUNG
-    ===================================================== */
-
+    /* Nội dung */
     .content {
         font-size: 16px;
         line-height: 1.55;
-        color: #222222 !important;
-    }
-
-    .content br {
         color: #222222;
     }
 
     /* Tên trường / công ty */
     .bold {
         font-weight: bold;
-        color: #111111 !important;
     }
 
-    /* =====================================================
-       KINH NGHIỆM
-    ===================================================== */
-
+    /* Kinh nghiệm */
     .experience-date {
         font-size: 16px;
         font-weight: bold;
-        color: #222222 !important;
     }
 
     .company {
         font-size: 16px;
         font-weight: bold;
-        color: #111111 !important;
     }
 
-    /* =====================================================
-       BULLET
-    ===================================================== */
-
+    /* Bullet */
     .bullet {
         margin-left: 15px;
         line-height: 1.5;
         font-size: 15px;
-        color: #222222 !important;
     }
 
-    /* =====================================================
-       KỸ NĂNG
-    ===================================================== */
-
+    /* Kỹ năng */
     .skill-title {
         font-size: 16px;
         font-weight: bold;
         margin-top: 12px;
-        color: #111111 !important;
     }
 
     .skill-content {
         font-size: 15px;
         line-height: 1.5;
-        color: #222222 !important;
     }
 
-    /* =====================================================
-       THÔNG TIN CÁ NHÂN
-    ===================================================== */
-
+    /* Thông tin cá nhân */
     .info-row {
         font-size: 16px;
         margin-bottom: 10px;
-        color: #222222 !important;
     }
 
     .icon {
-        color: #c6283d !important;
+        color: #c6283d;
         font-weight: bold;
         margin-right: 10px;
     }
 
-    /* =====================================================
-       ẢNH
-    ===================================================== */
-
+    /* Ảnh */
     .profile-img {
         width: 100%;
         max-width: 300px;
         border: 1px solid #dddddd;
     }
 
-    /* =====================================================
-       TIMELINE
-    ===================================================== */
-
+    /* Timeline */
     .timeline {
         border-left: 3px solid #777777;
         margin-left: 10px;
@@ -235,18 +144,7 @@ st.markdown("""
         margin-top: 5px;
     }
 
-    /* =====================================================
-       DIVIDER
-    ===================================================== */
-
-    [data-testid="stDivider"] {
-        border-color: #555555 !important;
-    }
-
-    /* =====================================================
-       ẨN MENU STREAMLIT
-    ===================================================== */
-
+    /* Ẩn menu Streamlit */
     #MainMenu {
         visibility: hidden;
     }
@@ -279,7 +177,7 @@ with col1:
 with col2:
 
     st.markdown(
-        '<div class="name">TRẦN VĂN LỢI</div>',
+        '<div class="name">TRẦN VĂN LỢILỢI</div>',
         unsafe_allow_html=True
     )
 
@@ -320,9 +218,9 @@ with col2:
 col1, col2, col3 = st.columns([1, 1.15, 1.1], gap="large")
 
 
-# =========================================================
+# ---------------------------------------------------------
 # THÔNG TIN CÁ NHÂN
-# =========================================================
+# ---------------------------------------------------------
 
 with col1:
 
@@ -335,31 +233,31 @@ with col1:
         """
         <div class="info-row">
             <span class="icon">●</span>
-            26/05/2005
+            04/04/2005
         </div>
 
         <div class="info-row">
             <span class="icon">✉</span>
-            loiwitran2005@gmail.com
+            trandieulinh34@gmail.com
         </div>
 
         <div class="info-row">
             <span class="icon">☎</span>
-            0372763338
+            0889905402
         </div>
 
         <div class="info-row">
             <span class="icon">📍</span>
-            496/63/2D Dương Quảng Hàm
+            98 Nguyễn Văn Săng
         </div>
         """,
         unsafe_allow_html=True
     )
 
 
-# =========================================================
+# ---------------------------------------------------------
 # HỌC VẤN
-# =========================================================
+# ---------------------------------------------------------
 
 with col2:
 
@@ -392,9 +290,9 @@ with col2:
     )
 
 
-# =========================================================
+# ---------------------------------------------------------
 # CHỨNG CHỈ
-# =========================================================
+# ---------------------------------------------------------
 
 with col3:
 
@@ -420,121 +318,31 @@ with col3:
 
 
 # =========================================================
+# =========================================================
 # KINH NGHIỆM LÀM VIỆC
 # =========================================================
 
-st.markdown(
-    """
-    <h2 style="
-        color:#111111 !important;
-        font-size:28px;
-        font-weight:700;
-        margin-top:30px;
-        margin-bottom:5px;
-    ">
-        KINH NGHIỆM LÀM VIỆC
-    </h2>
-    """,
-    unsafe_allow_html=True
-)
-
+st.markdown("## KINH NGHIỆM LÀM VIỆC")
 st.divider()
 
-
-col_time, col_content = st.columns([1, 3], gap="large")
-
-
-# =========================================================
-# THỜI GIAN
-# =========================================================
+col_time, col_content = st.columns([1, 3])
 
 with col_time:
-
-    st.markdown(
-        """
-        <div style="
-            color:#222222;
-            font-size:16px;
-            font-weight:bold;
-            line-height:1.5;
-        ">
-            <span style="color:#c6283d;">🔴</span>
-            03/2025 - 04/2026
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-
-# =========================================================
-# NỘI DUNG KINH NGHIỆM
-# =========================================================
+    st.markdown("🔴 **03/2025 - 04/2026**")
 
 with col_content:
-
-    st.markdown(
-        """
-        <div style="
-            color:#111111;
-            font-size:22px;
-            font-weight:bold;
-            margin-bottom:5px;
-        ">
-            Doanh nghiệp tư nhân Thắt lưng giá tốt
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-    st.markdown(
-        """
-        <div style="
-            color:#222222;
-            font-size:16px;
-            font-weight:bold;
-            margin-bottom:10px;
-        ">
-            Nhân viên tư vấn và chăm sóc khách hàng
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-    st.markdown(
-        """
-        <div style="
-            color:#222222;
-            font-size:15px;
-            line-height:1.7;
-        ">
-
-        <ul style="
-            color:#222222;
-            padding-left:20px;
-        ">
-
-            <li style="color:#222222; margin-bottom:8px;">
-                Liên hệ tệp <strong style="color:#111111;">+1000 khách hàng tiềm năng</strong>
-                và tư vấn khách hàng sử dụng các sản phẩm.
-            </li>
-
-            <li style="color:#222222; margin-bottom:8px;">
-                Tiếp nhận và xử lý các yêu cầu của khách hàng về sản phẩm.
-            </li>
-
-            <li style="color:#222222; margin-bottom:8px;">
-                Chăm sóc khách hàng cũ, hỗ trợ giải đáp mọi thắc mắc
-                của khách hàng đối với sản phẩm đang sử dụng.
-            </li>
-
-        </ul>
-
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-
+    st.markdown("### Doanh nghiệp tư nhân Thắt lưng giá tốt")
+    
+    st.markdown("**Nhân viên tư vấn và chăm sóc khách hàng**")
+    
+    st.markdown("""
+    - Liên hệ tệp **+1000 khách hàng tiềm năng** và tư vấn khách hàng sử dụng các sản phẩm.
+    
+    - Tiếp nhận và xử lý các yêu cầu của khách hàng về sản phẩm.
+    
+    - Chăm sóc khách hàng cũ, hỗ trợ giải đáp mọi thắc mắc của khách hàng đối với sản phẩm đang sử dụng.
+    """)
+    
 # =========================================================
 # PHẦN 4: KỸ NĂNG + NGƯỜI THAM KHẢO
 # =========================================================
@@ -542,9 +350,9 @@ with col_content:
 col1, col2 = st.columns([1, 1], gap="large")
 
 
-# =========================================================
+# ---------------------------------------------------------
 # KỸ NĂNG
-# =========================================================
+# ---------------------------------------------------------
 
 with col1:
 
@@ -596,9 +404,9 @@ with col1:
     )
 
 
-# =========================================================
+# ---------------------------------------------------------
 # NGƯỜI THAM KHẢO
-# =========================================================
+# ---------------------------------------------------------
 
 with col2:
 
