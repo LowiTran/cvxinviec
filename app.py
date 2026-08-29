@@ -228,6 +228,21 @@ with col1:
         '<div class="section-title">THÔNG TIN CÁ NHÂN</div>',
         unsafe_allow_html=True
     )
+ .info-row {
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #222222 !important;
+    }
+
+    .info-row * {
+        color: #222222 !important;
+    }
+
+    .icon {
+        color: #c6283d !important;
+        font-weight: bold;
+        margin-right: 10px;
+    }
 
     st.markdown(
         """
