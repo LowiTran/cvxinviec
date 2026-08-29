@@ -177,7 +177,7 @@ with col1:
 with col2:
 
     st.markdown(
-        '<div class="name">TRẦN VĂN LỢILỢI</div>',
+        '<div class="name">TRẦN VĂN LỢI</div>',
         unsafe_allow_html=True
     )
 
