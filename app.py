@@ -327,7 +327,7 @@ with col_time:
     st.markdown("🔴 **06/2025 - 08/2026**")
 
 with col_content:
-    st.markdown("### Ngân Hàng Nhà Nước Việt ")
+    st.markdown("### Ngân Hàng Nhà Nước Việt Nam")
     
     st.markdown("**Nhân viên tư vấn và chăm sóc khách hàng**")
     
