@@ -182,7 +182,7 @@ with col2:
     )
 
     st.markdown(
-        '<div class="job">Nhân viên dịch vụ khách hàng        '<div class="job">Nhân viên dịch vụ khách hàng</div>',
+        '<div class="job">Nhân viên tín dụng</div>',
         unsafe_allow_html=True
     )
 
@@ -248,7 +248,7 @@ with col1:
 
         <div class="info-row">
             <span class="icon">📍</span>
-            496/63/2D Dương Quảng HàmHàm
+            496/63/2D Dương Quảng Hàm
         </div>
         """,
         unsafe_allow_html=True
@@ -328,7 +328,7 @@ st.divider()
 col_time, col_content = st.columns([1, 3])
 
 with col_time:
-    st.markdown("🔴 **06/2025 - 08/2026**")
+    st.markdown("🔴 **03/2025 - 04/2026**")
 
 with col_content:
     st.markdown("### Doanh nghiệp tư nhân Thắt lưng giá tốt")
@@ -423,7 +423,7 @@ with col2:
             Trần Hoàng Tuấn Kiệt
         </div>
 
-        Trưởng Phòng Hành Chính Nhân Sự - Ngân hàng TMCP
+        Trưởng Phòng Hành Chính Nhân Sự (SM) - Ngân hàng TMCP
         Ngoại Thương Việt Nam (VCB)
 
         </div>
