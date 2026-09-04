@@ -398,7 +398,28 @@ with col1:
         """,
         unsafe_allow_html=True
     )
-
+# Quá trình hoạt động
+    st.markdown("""
+    <div class="section-card">
+        <div class="section-title">🚀 Quá trình hoạt động</div>
+        <ul class="content-text" style="padding-left: 1.2rem;">
+            <li style="margin-bottom: 0.9rem;">
+                <strong>Workshop Đầu tư chứng khoán</strong> - "Bản tính đầu tư & tự tin chiến thắng"<br>
+                <span style="color: #718096; font-size: 0.9rem;">Tháng 8/2024</span>
+            </li>
+            <li style="margin-bottom: 0.9rem;">
+                <strong>Học phần “Phân tích đầu tư chứng khoán”</strong><br>
+                Thực hành tại Công ty Chứng khoán Rồng Việt và Công ty Chứng khoán Phú Hưng<br>
+                <span style="color: #718096; font-size: 0.9rem;">Tháng 4/2025</span>
+            </li>
+            <li>
+                <strong>Học phần “Thẩm định tín dụng”</strong><br>
+                Thực hành tại Ngân hàng Vietcombank - Thống Nhất<br>
+                <span style="color: #718096; font-size: 0.9rem;">Tháng 11/2025</span>
+            </li>
+        </ul>
+    </div>
+    """, unsafe_allow_html=True)
 
 # ---------------------------------------------------------
 # NGƯỜI THAM KHẢO
