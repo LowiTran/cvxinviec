@@ -182,7 +182,7 @@ with col2:
     )
 
     st.markdown(
-        '<div class="job">Nhân viên tín dụng</div>',
+        '<div class="job">Nhân viên dịch vụ khách hàng</div>',
         unsafe_allow_html=True
     )
 
@@ -194,17 +194,13 @@ with col2:
     st.markdown(
         """
         <div class="intro">
-        Hiện tôi là sinh viên năm 3 Trường Đại học Nguyễn Tất Thành.
-        Trong hơn hai năm học tập và đồng hành cùng các thầy cô giảng viên,
-        tôi đã được trang bị những kiến thức nền tảng về lĩnh vực ngân hàng,
-        tài chính cùng các kỹ năng cơ bản như giao tiếp, làm việc nhóm,
-        xử lý tình huống và sử dụng tin học văn phòng.
-        Tôi mong muốn được tham gia môi trường làm việc chuyên nghiệp để
-        vận dụng những kiến thức đã học vào thực tế, không ngừng học hỏi,
-        tích lũy kinh nghiệm và phát triển các kỹ năng chuyên môn.
-        Mục tiêu của tôi là trở thành một nhân viên có tinh thần trách nhiệm,
-        chủ động, luôn hoàn thành tốt công việc được giao và từng bước
-        phát triển sự nghiệp lâu dài trong lĩnh vực ngân hàng.
+        Là sinh viên năm 3 chuyên ngành Tài Chính - Ngân hàng tại Trường
+        Đại Học Nguyễn Tất Thành, đang tìm kiếm cơ hội được tại vị trí khởi
+        đầu thực tập tại Ngân hàng Thương mại Cổ phần Ngoại thương Việt
+        Nam (Vietcombank), để áp dụng những kiến thức và kỹ năng đã tích
+        lũy, cùng với tinh thần ham học hỏi sẽ tiếp thu được nhiều kinh nghiệm
+        hơn và phát bản thân trở thành một chuyên viên tài chính có năng lực,
+        đóng góp và sự phát triển cho doanh nghiệp
         </div>
         """,
         unsafe_allow_html=True
@@ -331,7 +327,7 @@ with col_time:
     st.markdown("🔴 **06/2025 - 0808/2026**")
 
 with col_content:
-    st.markdown("### Doanh nghiệp tư nhân Thắt lưng giá tốt")
+    st.markdown("### Ngân Hàng Nhà Nước Việt ")
     
     st.markdown("**Nhân viên tư vấn và chăm sóc khách hàng**")
     
