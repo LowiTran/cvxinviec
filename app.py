@@ -324,7 +324,7 @@ st.divider()
 col_time, col_content = st.columns([1, 3])
 
 with col_time:
-    st.markdown("🔴 **06/2025 - 0808/2026**")
+    st.markdown("🔴 **06/2025 - 08/2026**")
 
 with col_content:
     st.markdown("### Ngân Hàng Nhà Nước Việt ")
