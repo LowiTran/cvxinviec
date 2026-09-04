@@ -194,6 +194,7 @@ with col2:
     st.markdown(
         """
         <div class="job">Mục Tiêu Nghề Nghiệp</div>
+        
         Là sinh viên năm 3 chuyên ngành Tài Chính - Ngân hàng tại Trường
         Đại Học Nguyễn Tất Thành, đang tìm kiếm cơ hội được tại vị trí khởi
         đầu thực tập tại Ngân hàng Thương mại Cổ phần Ngoại thương Việt
