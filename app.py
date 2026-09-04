@@ -182,7 +182,7 @@ with col2:
     )
 
     st.markdown(
-        '<div class="job">Nhân viên tín dụng</div>',
+        '<div class="job">Nhân viên dịch vụ khách hàng        '<div class="job">Nhân viên dịch vụ khách hàng</div>',
         unsafe_allow_html=True
     )
 
@@ -328,7 +328,7 @@ st.divider()
 col_time, col_content = st.columns([1, 3])
 
 with col_time:
-    st.markdown("🔴 **03/2025 - 04/2026**")
+    st.markdown("🔴 **06/2025 - 08/2026**")
 
 with col_content:
     st.markdown("### Doanh nghiệp tư nhân Thắt lưng giá tốt")
@@ -420,11 +420,11 @@ with col2:
         <div class="content">
 
         <div class="bold">
-            Cao Thị Mỹ Huê
+            Trần Hoàng Tuấn Kiệt
         </div>
 
-        Giám đốc phòng kinh doanh (SM) - Ngân hàng TMCP
-        Quốc Tế Việt Nam (VIB)
+        Trưởng Phòng Hành Chính Nhân Sự - Ngân hàng TMCP
+        Ngoại Thương Việt Nam (VCB)
 
         </div>
         """,
